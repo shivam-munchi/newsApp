@@ -1,0 +1,13 @@
+#Mon Jul 16 16:06:52 IST 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/transforms/dexMerger/debug/134
+base.2=/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/transforms/dexMerger/debug/131
+base.1=/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/transforms/dexMerger/debug/132
+base.0=/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/transforms/dexMerger/debug/133

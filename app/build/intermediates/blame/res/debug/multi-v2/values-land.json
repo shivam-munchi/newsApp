@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}
