@@ -51,6 +51,11 @@
                 android:value=".NewsActivity" />
         </activity>
         <activity android:name="com.example.delhivery.newsapp.SettingsActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.delhivery.newsapp.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

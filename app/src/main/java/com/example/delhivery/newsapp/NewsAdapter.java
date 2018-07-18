@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.io.InputStream;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsAdapterViewHolder>{
@@ -66,39 +68,12 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsAdapterVie
 
     }
 
-    private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
-        ImageView bmImage;
-
-        public DownloadImageTask(ImageView bmImage) {
-            this.bmImage = bmImage;
-        }
-
-        protected Bitmap doInBackground(String... urls) {
-            String urldisplay = urls[0];
-            Bitmap mIcon11 = null;
-            try {
-                InputStream in = new java.net.URL(urldisplay).openStream();
-                mIcon11 = BitmapFactory.decodeStream(in);
-            } catch (Exception e) {
-                Log.e("Error", e.getMessage());
-                e.printStackTrace();
-            }
-            return mIcon11;
-        }
-
-        protected void onPostExecute(Bitmap result) {
-            if(result!=null)
-            bmImage.setImageBitmap(result);
-        }
-    }
-
     @Override
     public void onBindViewHolder(NewsAdapterViewHolder holder, int position) {
         String title = mNewsData.getArticles().get(position).getTitle();
         holder.mNewsTitle.setText(title);
+        Picasso.get().load(mNewsData.getArticles().get(position).getUrlToImage()).resize(150,100).into(holder.mNewsImage);
 
-        new DownloadImageTask(holder.mNewsImage)
-                .execute(mNewsData.getArticles().get(position).getUrlToImage());
     }
 
     @Override

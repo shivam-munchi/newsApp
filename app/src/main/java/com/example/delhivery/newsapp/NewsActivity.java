@@ -19,6 +19,9 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
+import static com.example.delhivery.newsapp.Constants.API_KEY;
+import static com.example.delhivery.newsapp.Constants.BASE_URL;
+
 public class NewsActivity extends AppCompatActivity implements NewsAdapter.NewsAdapterOnClickHandler {
 
 
@@ -48,7 +51,7 @@ public class NewsActivity extends AppCompatActivity implements NewsAdapter.NewsA
                 .create();
 
         Retrofit.Builder builder = new Retrofit.Builder()
-                .baseUrl(MainActivity.BASE_URL)
+                .baseUrl(BASE_URL)
                 .addConverterFactory(ScalarsConverterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .client(httpClient.build());
@@ -59,7 +62,7 @@ public class NewsActivity extends AppCompatActivity implements NewsAdapter.NewsA
 
         getSourceFromIntent();
 
-        Call<NewsResp> call= apiClient.getNews(newsSource,MainActivity.API_KEY);
+        Call<NewsResp> call= apiClient.getNews(newsSource,API_KEY);
 
         call.enqueue(new Callback<NewsResp>() {
             @Override

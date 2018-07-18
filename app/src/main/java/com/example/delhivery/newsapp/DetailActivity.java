@@ -3,6 +3,7 @@ package com.example.delhivery.newsapp;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,43 +12,22 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.io.InputStream;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class DetailActivity extends AppCompatActivity {
 
-    private TextView mTitle;
-    private TextView mDesc;
-    private TextView mAuthor;
-    private TextView mUrl;
-    private TextView mPublishedAt;
-    private ImageView mImage;
+    @BindView(R.id.newsTitle) TextView mTitle;
+    @BindView(R.id.newsDesc)  TextView mDesc;
+    @BindView(R.id.newsAuthor) TextView mAuthor;
+    @BindView(R.id.newsUrl) TextView mUrl;
+    @BindView(R.id.newsPublishedAt) TextView mPublishedAt;
+    @BindView(R.id.imageViewDetail) ImageView mImage;
 
-
-    private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
-        ImageView bmImage;
-
-        public DownloadImageTask(ImageView bmImage) {
-            this.bmImage = bmImage;
-        }
-
-        protected Bitmap doInBackground(String... urls) {
-            String urldisplay = urls[0];
-            Bitmap mIcon11 = null;
-            try {
-                InputStream in = new java.net.URL(urldisplay).openStream();
-                mIcon11 = BitmapFactory.decodeStream(in);
-            } catch (Exception e) {
-                Log.e("Error", e.getMessage());
-                e.printStackTrace();
-            }
-            return mIcon11;
-        }
-
-        protected void onPostExecute(Bitmap result) {
-            if(result!=null)
-                bmImage.setImageBitmap(result);
-        }
-    }
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -61,20 +41,13 @@ public class DetailActivity extends AppCompatActivity {
         String publishedAt = i.getStringExtra("articlePublishedAt");
         String UrlToImage = i.getStringExtra("articleUrlToImage");
 
-        mAuthor = (TextView) findViewById(R.id.newsAuthor);
-        mTitle = (TextView) findViewById(R.id.newsTitle);
-        mUrl = (TextView) findViewById(R.id.newsUrl);
-        mPublishedAt = (TextView) findViewById(R.id.newsPublishedAt);
-        mDesc = (TextView) findViewById(R.id.newsDesc);
-        mImage = (ImageView) findViewById(R.id.imageViewDetail);
+        ButterKnife.bind(this);
 
         mTitle.setText(title);
         mAuthor.append(": "+author);
         mPublishedAt.append(": "+publishedAt);
         mUrl.append(": "+url);
         mDesc.setText(desc);
-        new DownloadImageTask(mImage)
-                .execute(UrlToImage);
-
+        Picasso.get().load(UrlToImage).resize(150,100).into(mImage);
     }
 }
