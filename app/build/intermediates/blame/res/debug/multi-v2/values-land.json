@@ -4,6 +4,25 @@
             "outputFile": "/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
+                    "source": "/home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
+                    }
+                },
+                {
                     "source": "/home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",

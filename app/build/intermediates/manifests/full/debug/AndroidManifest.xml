@@ -15,6 +15,7 @@
         android:value="25.3.0" />
 
     <application
+        android:name="com.example.delhivery.newsapp.NewsApp"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"

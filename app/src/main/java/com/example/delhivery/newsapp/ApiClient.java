@@ -8,19 +8,16 @@ import retrofit2.http.Query;
 
 public interface ApiClient {
 
-    @GET("/sources")
+    @GET("sources")
     Call<JsonElement> getSources(@Query("apiKey") String apiKey);
 
-    @GET("/sources")
-    Call<ErrorResp> checkError(@Query("apiKey") String apiKey);
-
-    @GET("/sources")
+    @GET("sources")
     Call<Void> getSourcesVoid(@Query("apiKey") String apiKey);
 
-    @GET("/sources")
+    @GET("sources")
     Call<SourceResp> getSourcesSourceResp(@Query("apiKey") String apiKey);
 
-    @GET("/sources")
+    @GET("sources")
     Call<SourceResp> getSourcesSourceRespCountry(@Query("country") String country,
             @Query("apiKey") String apiKey);
 

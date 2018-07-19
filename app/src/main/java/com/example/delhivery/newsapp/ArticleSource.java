@@ -1,8 +1,14 @@
 package com.example.delhivery.newsapp;
 
-class ArticleSource{
+public class ArticleSource{
         private String id;
         private String name;
+
+        public ArticleSource(String id, String name) {
+            this.id = id;
+            this.name = name;
+        }
+
 
         public String getId() {
             return id;

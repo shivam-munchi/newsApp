@@ -7,6 +7,12 @@ class NewsResp {
     private int totalResults;
     private ArrayList<ArticleStructure> articles;
 
+    public NewsResp(String status, int totalResults, ArrayList<ArticleStructure> articles) {
+        this.status = status;
+        this.totalResults = totalResults;
+        this.articles = articles;
+    }
+
     public String getStatus() {
         return status;
     }

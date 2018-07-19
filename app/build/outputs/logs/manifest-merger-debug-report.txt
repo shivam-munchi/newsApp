@@ -1,10 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
 MERGED from [com.android.support:preference-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.0.aar/3bae8d3b97fb1f9d739e4831a313affd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/e067970a3aa3f97539d4f3278bb9e651/AndroidManifest.xml:17:1-26:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/delhivery/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/576c282a7f4efe126b7f06075e3fce44/AndroidManifest.xml:2:1-14:12
@@ -13,6 +14,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/delhi
 MERGED from [com.jakewharton:butterknife:8.8.1] /home/delhivery/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/530512d2ac0c70058fb6cfd04e801c6f/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/47f564c96f1ad1f41a82191921090321/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/0499c985becdd3a8c47061644ae3e53b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/19817d73a4801e8bd467211e4bf9b9e7/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/57454dbdaf702c29454b46d6d99e5f3f/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/e88dc2d68768e86c72b7a2431194e4cc/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/708d576687db37f93136b1a75189770f/AndroidManifest.xml:17:1-31:12
@@ -20,20 +22,20 @@ MERGED from [com.android.support:support-media-compat:25.3.0] /home/delhivery/.g
 MERGED from [com.android.support:support-core-utils:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/d4eda7f7c67a9da4d81b97869690afa9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/b2fee5c9c0362e97257c6a29e7af504c/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:exifinterface:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.0.aar/091c799551ddb2e07f4debd9623ee034/AndroidManifest.xml:17:1-28:12
-INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:1-54:12
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -42,9 +44,11 @@ ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main
 	android:name
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:9:5-50:19
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:9:5-52:19
 MERGED from [com.android.support:preference-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.0.aar/3bae8d3b97fb1f9d739e4831a313affd/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:preference-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.0.aar/3bae8d3b97fb1f9d739e4831a313affd/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:29:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/delhivery/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/576c282a7f4efe126b7f06075e3fce44/AndroidManifest.xml:7:5-12:19
@@ -57,6 +61,8 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/delhiver
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/47f564c96f1ad1f41a82191921090321/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/0499c985becdd3a8c47061644ae3e53b/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/0499c985becdd3a8c47061644ae3e53b/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/19817d73a4801e8bd467211e4bf9b9e7/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/19817d73a4801e8bd467211e4bf9b9e7/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/57454dbdaf702c29454b46d6d99e5f3f/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/57454dbdaf702c29454b46d6d99e5f3f/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/e88dc2d68768e86c72b7a2431194e4cc/AndroidManifest.xml:29:5-20
@@ -83,58 +89,62 @@ MERGED from [com.android.support:exifinterface:25.3.0] /home/delhivery/.gradle/c
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:16:9-32
 activity#com.example.delhivery.newsapp.MainActivity
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:17:9-26:20
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:19:9-28:20
 	android:label
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:21:13-36
 	android:launchMode
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:18:13-43
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:20:13-43
 	android:name
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:26:27-74
 activity#com.example.delhivery.newsapp.NewsActivity
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:28:9-37:20
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:30:9-39:20
 	android:parentActivityName
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:30:13-55
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:32:13-55
 	android:label
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:32:13-33
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:34:13-33
 	android:launchMode
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:31:13-43
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:33:13-43
 	android:name
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:29:13-41
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:31:13-41
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:34:13-36:49
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:36:13-38:49
 	android:value
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:36:17-46
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:38:17-46
 	android:name
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:35:17-63
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:37:17-63
 activity#com.example.delhivery.newsapp.DetailActivity
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:39:9-47:20
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:parentActivityName
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:41:13-55
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:43:13-55
 	android:label
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:42:13-36
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:40:13-43
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:42:13-43
 activity#com.example.delhivery.newsapp.SettingsActivity
-ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:49:9-53
+ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:51:9-53
 	android:name
-		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:49:19-51
+		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:51:19-51
 uses-sdk
 INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:preference-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.0.aar/3bae8d3b97fb1f9d739e4831a313affd/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:preference-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.0.aar/3bae8d3b97fb1f9d739e4831a313affd/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/e067970a3aa3f97539d4f3278bb9e651/AndroidManifest.xml:20:5-43
@@ -151,6 +161,8 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/delhiver
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/47f564c96f1ad1f41a82191921090321/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/0499c985becdd3a8c47061644ae3e53b/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/0499c985becdd3a8c47061644ae3e53b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/19817d73a4801e8bd467211e4bf9b9e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/19817d73a4801e8bd467211e4bf9b9e7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/57454dbdaf702c29454b46d6d99e5f3f/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/57454dbdaf702c29454b46d6d99e5f3f/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/e88dc2d68768e86c72b7a2431194e4cc/AndroidManifest.xml:21:5-23:60
@@ -168,7 +180,7 @@ MERGED from [com.android.support:exifinterface:25.3.0] /home/delhivery/.gradle/c
 INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
@@ -179,6 +191,8 @@ INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/m
 		INJECTED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:preference-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.0.aar/3bae8d3b97fb1f9d739e4831a313affd/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:design:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/design-25.3.0.aar/a038687aa4e3a78258cd889984acf93d/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.0.aar/e44fc674b998390a4c41be77be742312/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.0.aar/e067970a3aa3f97539d4f3278bb9e651/AndroidManifest.xml:22:5-24:34
@@ -189,6 +203,8 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/delhiver
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.0.aar/47f564c96f1ad1f41a82191921090321/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/0499c985becdd3a8c47061644ae3e53b/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.0.aar/0499c985becdd3a8c47061644ae3e53b/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/19817d73a4801e8bd467211e4bf9b9e7/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/transition-25.3.0.aar/19817d73a4801e8bd467211e4bf9b9e7/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/57454dbdaf702c29454b46d6d99e5f3f/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-v4:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.0.aar/57454dbdaf702c29454b46d6d99e5f3f/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.0] /home/delhivery/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.0.aar/e88dc2d68768e86c72b7a2431194e4cc/AndroidManifest.xml:25:5-27:34

@@ -1,62 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/b1"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_mainactivity"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="ABC News"
-        android:onClick="Button1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center"/>
+        android:layout_height="match_parent"/>
 
 
-    <Button
-        android:id="@+id/b2"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="The Times of India"
-        android:onClick="Button2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center"
-        />
-
-    <Button
-        android:id="@+id/b3"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="BBC News"
-        android:onClick="Button3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center"
-        />
-
-    <Button
-        android:id="@+id/b4"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="Google News"
-        android:onClick="Button4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center"
-        />
-
-</LinearLayout>
+</FrameLayout>

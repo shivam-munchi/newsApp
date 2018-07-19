@@ -1,4 +1,4 @@
-#Wed Jul 18 12:22:29 IST 2018
-base.0=/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/transforms/dexMerger/debug/140
+#Thu Jul 19 11:02:07 IST 2018
+base.0=/home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex
