@@ -91,7 +91,7 @@ MERGED from [com.android.support:exifinterface:25.3.0] /home/delhivery/.gradle/c
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:15:9-40
 	android:name
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:16:9-32
-activity#com.example.delhivery.newsapp.MainActivity
+activity#com.example.delhivery.newsapp.HomeActivity
 ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:19:9-28:20
 	android:label
 		ADDED from /home/delhivery/Downloads/ud851-Sunshine-student/NewsApp/app/src/main/AndroidManifest.xml:21:13-36
